@@ -1,0 +1,344 @@
+*{margin: 0;/*外边距*/
+    padding: 0;/*内边距*/
+    font-family: 微软雅黑;/*字体*/
+
+    /*怪异盒子*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+}
+
+.swiper-container {
+    width:100%;
+    height:100%;
+}
+
+
+/*公用样式 开始*/
+.one{
+    width: 1200px;/*宽度*/
+    height: 100%;/*高度*/
+    margin: 0 auto;/*水平居中*/
+}
+/*公用样式 结束*/
+
+
+
+.a{color: #999;}/*字体颜色*/
+
+.b{
+    line-height: 60px;/*行高*/
+    text-align: right;/*水平居右*/
+}
+.tel{margin:0 25px 0 15px;}/*客服热线外边距*/
+
+
+
+
+
+
+/*第二层安全距离 开始*/
+.aqjl2{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+/*第二层安全距离 结束*/
+
+
+/*第三层安全距离 开始*/
+.aqjl3{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+/*第三层安全距离 结束*/
+
+/*第四层安全距离 开始*/
+.aqjl4{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+/*第四层安全距离 结束*/
+
+/*第五层安全距离 开始*/
+.aqjl5{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+/*第五层安全距离 结束*/
+
+/*第六层安全距离 开始*/
+.aqjl6{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    background: pink;
+}
+/*第六层安全距离 结束*/
+
+/*公用样式 结束*/
+
+
+
+/*头部样式 开始*/
+#header{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+/*头部样式 结束*/
+
+
+
+
+/*第一层样式 开始*/
+#floor1{
+    height: 940px;
+    background-image: url(../img/8.jpg);/*背景图片*/
+    background-position: center center;/*水平居中*/
+}
+
+.juzhong{text-align: center;}/*第一层内容居中*/
+
+.elu{padding-top: 140px;}/*e路相伴 货您同行 内边距*/
+
+/*想借款 找联金e贷 样式开始*/
+.floor-001{
+    color: #42698a;
+    font-size: 36px;
+    margin: 30px 0 90px;
+}
+/*想借款 找联金e贷 样式结束*/
+
+/*苹果安卓 样式开始*/
+.jianju{font-size: 0;}
+
+.anapp{
+    width: 280px;/*宽*/
+    height: 60px;/*高*/
+    border: none;/*无边框*/
+    background: white;/*背景*/
+    border-radius: 10px;/*圆角*/
+    color: #24a9f1;/*字体颜色*/
+    font-size: 30px;/*字体大小*/
+}
+
+.youbian{margin-right: 24px;}/*iphone下载版右边距离*/
+
+.ziti{/*或关注微信公众号*/
+    color: white;
+    font-size: 18px;
+    margin: 50px 0 15px;
+}
+/*苹果安卓 样式结束*/
+
+/*第一层样式 结束*/
+
+
+
+/*第二次样式 开始*/
+#floor2{
+    height: 1000px;
+    background-color: #4eb661;
+}
+
+.left{margin-top: 150px;} /*图片样式*/
+
+.right{
+    color: white;
+    float: right;
+    margin-top: 416px;
+    text-align: right;
+}
+
+.ziti1{font-size: 36px}
+
+.ziti2{
+    margin-top: 26px;
+    font-size: 18px;
+}
+
+/*第二层样式 结束*/
+
+
+
+
+/*第三次样式 开始*/
+#floor3{
+    height: 1000px;
+    background-color: #eb9c37;
+}
+
+.right3{ /*图片样式*/
+    float: right;
+    margin-top: 208px;
+}
+
+ .left3{float:left;/*字体样式*/
+     color: white;
+ }
+
+.left3>h1{
+    margin: 452px 0 18px;
+    font-size: 36px;
+}
+
+.xians{
+    font-size: 18px;/*线上操作自动化，无需抵押与担保*/
+}
+/*第三层样式 结束*/
+
+
+/*第四层样式 开始*/
+#floor4{
+    height: 1000px;
+    background-color: #ed683f;
+}
+
+.left4{/*图片样式*/
+    float: left;
+    margin-top: 188px;
+}
+
+.right4{
+    color: white;
+    float: right;
+    margin-top: 452px;
+}
+
+.kuaisu{/*快速审批，在最短时间内放款*/
+    margin-top: 25px;
+    text-align: right;
+}
+
+/*第四层样式 结束*/
+
+
+
+/*第五层样式 开始*/
+#floor5{
+    height: 1000px;
+    background-color: #4c9ad8;
+}
+
+.right5{/*图片样式*/
+    float: right;/*图片右浮动*/
+    margin-top: 246px;
+}
+
+.left5{
+    float: left;/*左浮动*/
+    color: white;/*字体颜色*/
+    margin-top: 430px;/*外 上边距*/
+    text-align: left;
+}
+
+.ziti5{/*联金e贷...贷款服务。*/
+    width: 500px;/*字体宽度*/
+    margin-top: 16px;/*外 上边距*/
+    font-size: 18px;/*字体大小*/
+}
+
+/*第五层样式 结束*/
+
+
+/*第六次样式 开始*/
+#floor6{
+    height: 1000px;
+    background-color: #366b95;
+}
+
+.left6{ /*图片样式*/
+    float: left;
+    margin-top: 314px;
+}
+
+.right6{
+    color: white;/*字体颜色*/
+    float: right;
+    padding-top: 406px;/*字体内边距*/
+}
+
+.lianxi{font-size: 36px}/*联系我们样式*/
+
+.address{font-size: 24px;
+    margin: 25px 0;
+}/*办公地址样式*/
+
+.address>p{
+    display: inline-block; /*房价..空间 行转块*/
+    line-height: 35px;/*字间距*/
+    width: 336px; /*房价..空间矩形*/
+    vertical-align: top;}/*办公地址 垂直顶对齐）*/
+
+
+.kefu{font-size: 24px}/*客服热线样式*/
+
+.time{font-size: 24px;/*时间样式*/
+    margin: 25px 0;
+}
+
+/*第六次样式 结束*/
+
+
+/*页脚样式 开始*/
+#footer{
+    height: 80px;
+    background-color: #285373;
+    color: #999999;
+    font-size: 16px;
+}
+
+/*版权样式开始*/
+.banquan{
+    text-align: center;/*居中*/
+    line-height: 80px;/*垂直居中*/
+}
+/*版权样式结束*/
+
+/*页脚样式 结束*/
+
+
+
+/*浮动样式 开始*/
+.fudong{ /*浮动条*/
+    height: 150px;/*高度*/
+    width: 100%;/*宽度*/
+    position: fixed;/*浮动定位*/
+    left: 0; /*左零*/
+    bottom: 0;/*下零*/
+    background: rgba(0,0,0,0.5);/*RBG不透明度*/
+    color: white;/*字体颜色*/
+    text-align: center;/*水平居中*/
+    padding-top: 20px; /*二维码内边距*/
+    z-index: 1;
+}
+
+.fudong>img{ /*二维码宽 高*/
+    width: 110px;
+    vertical-align: middle;/*垂直居中*/
+}
+
+
+.xapp{  /*下载APP 字体*/
+    font-size: 18px; /*字体大小*/
+    margin: 0 55px 0;/*外边距*/
+}
+
+
+.gzgzh{ /*关注公众号 字体*/
+    font-size: 18px; /*字体大小*/
+    margin: 0 22px 0 88px; /*外边距*/
+}
+
+/*浮动样式 结束*/
